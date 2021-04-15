@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eiB-qw-XmO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eiB-qw-XmO">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -52,12 +52,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyJ-pI-rdS">
                                 <rect key="frame" x="79" y="382" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="imageButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="fd7-D8-6vF"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aP-vj-zQQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aP-vj-zQQ">
                                 <rect key="frame" x="79" y="294" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="imageButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="oGX-iH-dLZ"/>
                                 </connections>
@@ -65,22 +66,30 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQz-E6-CId">
                                 <rect key="frame" x="167" y="382" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="imageButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="WWZ-Lm-qte"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYa-zU-Xe5">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYa-zU-Xe5">
                                 <rect key="frame" x="167" y="294" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="imageButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="dUm-XW-SSV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bn4-iW-h3Z">
                                 <rect key="frame" x="255" y="382" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="imageButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="H1o-sB-LK4"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icq-SS-Dkv">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icq-SS-Dkv">
                                 <rect key="frame" x="255" y="294" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="imageButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="Z9w-yz-UXL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngl-61-2cW">
                                 <rect key="frame" x="20" y="220" width="374" height="21"/>
@@ -88,17 +97,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-Vr-nWf">
+                                <rect key="frame" x="183.5" y="750.5" width="47.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2OQ-Vd-UQc">
+                                <rect key="frame" x="198.5" y="779.5" width="17" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsa-E1-c7S">
+                                <rect key="frame" x="187.5" y="699" width="39" height="30"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="CF2-1N-gc7" eventType="touchUpInside" id="aGY-rW-SNv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cyq-YB-dEP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="cyq-YB-dEP" firstAttribute="bottom" secondItem="2OQ-Vd-UQc" secondAttribute="bottom" constant="51" id="1dE-5o-Zpw"/>
                             <constraint firstItem="ngl-61-2cW" firstAttribute="leading" secondItem="cyq-YB-dEP" secondAttribute="leading" constant="20" id="4oD-AJ-J3a"/>
+                            <constraint firstItem="2OQ-Vd-UQc" firstAttribute="centerX" secondItem="cyq-YB-dEP" secondAttribute="centerX" id="7Gb-96-wKN"/>
                             <constraint firstItem="ngl-61-2cW" firstAttribute="top" secondItem="cyq-YB-dEP" secondAttribute="top" constant="176" id="FBC-Pv-pWC"/>
+                            <constraint firstItem="I0f-Vr-nWf" firstAttribute="top" secondItem="Tsa-E1-c7S" secondAttribute="bottom" constant="21.5" id="LDX-iK-NgY"/>
                             <constraint firstItem="cyq-YB-dEP" firstAttribute="trailing" secondItem="ngl-61-2cW" secondAttribute="trailing" constant="20" id="Lg8-dz-ZLr"/>
+                            <constraint firstItem="2OQ-Vd-UQc" firstAttribute="top" secondItem="I0f-Vr-nWf" secondAttribute="bottom" constant="8" symbolic="YES" id="fFF-sn-t6a"/>
+                            <constraint firstItem="Tsa-E1-c7S" firstAttribute="centerX" secondItem="I0f-Vr-nWf" secondAttribute="centerX" id="t5F-FH-Mvh"/>
+                            <constraint firstItem="I0f-Vr-nWf" firstAttribute="centerX" secondItem="2OQ-Vd-UQc" secondAttribute="centerX" id="vhg-sz-Xno"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="U64-XH-mAZ"/>
                     <connections>
+                        <outlet property="resetButton" destination="Tsa-E1-c7S" id="AK0-yQ-DQi"/>
+                        <outlet property="scoreLabel" destination="2OQ-Vd-UQc" id="9xk-ET-Hsp"/>
                         <outlet property="wordLabel" destination="ngl-61-2cW" id="VNw-vB-ejp"/>
                         <outletCollection property="imageButtons" destination="MQz-E6-CId" collectionClass="NSMutableArray" id="tMP-u0-AFS"/>
                         <outletCollection property="imageButtons" destination="bn4-iW-h3Z" collectionClass="NSMutableArray" id="7u6-xy-ui6"/>

@@ -9,9 +9,10 @@ import Foundation
 import UIKit
 
 enum Car: String, CaseIterable {
-    case tesla, toyota, nissan, skoda
+    case tesla, toyota, honda, skoda, hyundai, mercedes
     
     var image: UIImage? {
         return UIImage(named: self.rawValue)
     }
+    
 }
